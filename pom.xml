@@ -12,9 +12,16 @@
     <logback.version>1.2.3</logback.version>
     <junit.version>4.13.1</junit.version>
     <cats.version>2.2.0</cats.version>
+    <scalafmt.version>2.6.1</scalafmt.version>
   </properties>
      
   <dependencies>
+    <dependency>
+      <groupId>org.scalameta</groupId>
+      <artifactId>scalafmt-core_2.12</artifactId>
+      <version>${scalafmt.version}</version>
+    </dependency>
+
     <dependency>
       <groupId>org.typelevel</groupId>
       <artifactId>cats-core_2.12</artifactId>
