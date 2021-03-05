@@ -1,3 +1,3 @@
 name := "test-repo-2"
 
-scalaVersion := "2.12.12"
+scalaVersion := "2.12.13"
