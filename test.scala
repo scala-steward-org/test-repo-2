@@ -3,3 +3,4 @@ object test {
   val y = 456
   val z = 789
 }
+
