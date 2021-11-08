@@ -1,4 +1,3 @@
-final class
-  Person {
-int age = 0;
+final class Person {
+  int age = 0;
 }
