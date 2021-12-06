@@ -6,4 +6,4 @@ scalaVersion := "2.13.7"
 
 ThisBuild / crossScalaVersions := Seq("2.13.7")
 
-libraryDependencies += "co.fs2" %% "fs2-core" % "3.2.2"
+libraryDependencies += "co.fs2" %% "fs2-core" % "3.2.3"
