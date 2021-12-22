@@ -4,6 +4,6 @@ scalaVersion := "2.13.7"
 
 /// sbt-github-actions configuration
 
-(ThisBuild / crossScalaVersions) := Seq("2.13.6")
+(ThisBuild / crossScalaVersions) := Seq("2.13.7")
 
 (ThisBuild / githubWorkflowJavaVersions) := Seq("adopt@1.8")
