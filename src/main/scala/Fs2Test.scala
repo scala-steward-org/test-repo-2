@@ -1,4 +1,3 @@
-
 import fs2.text.utf8.decode
 
 object Fs2Test extends App {
