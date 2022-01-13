@@ -1,7 +1,7 @@
 name := "test-repo-2"
 
-scalaVersion := "2.13.7"
+scalaVersion := "2.13.8"
 
 /// sbt-github-actions configuration
 
-ThisBuild / crossScalaVersions := Seq("2.13.7")
+ThisBuild / crossScalaVersions := Seq("2.13.8")
