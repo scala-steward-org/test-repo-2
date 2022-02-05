@@ -6,4 +6,4 @@ scalaVersion := "2.13.8"
 
 (ThisBuild / crossScalaVersions) := Seq("2.13.8")
 
-(ThisBuild / githubWorkflowJavaVersions) := Seq("adopt@1.8")
+// (ThisBuild / githubWorkflowJavaVersions) := Seq("adopt@1.8")
