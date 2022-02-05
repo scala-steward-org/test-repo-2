@@ -5,6 +5,7 @@
 # change your sbt build configuration to revise the workflow description
 # to meet your needs, then regenerate this file.
 
+
 name: Continuous Integration
 
 on:
@@ -56,6 +57,7 @@ jobs:
 
       - name: Compress target directories
         run: tar cf targets.tar target project/target
+
 
       - name: Upload target directories
         uses: actions/upload-artifact@v2
