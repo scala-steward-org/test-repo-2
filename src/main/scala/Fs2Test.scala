@@ -5,6 +5,6 @@ object Fs2Test extends App {
     .emits("Hello".getBytes("UTF-8"))
     .through(decode)
     .compile
-    .toList
-    .foreach(println)
+     .toList
+      .foreach(println)
 }
