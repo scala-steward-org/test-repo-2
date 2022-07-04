@@ -7,4 +7,4 @@ scalaVersion := "2.13.7"
 ThisBuild / crossScalaVersions := Seq("2.13.7")
 ThisBuild / githubWorkflowJavaVersions := Seq("adopt@1.8")
 
-libraryDependencies += "co.fs2" %% "fs2-core" % "3.0.6"
+libraryDependencies += "co.fs2" %% "fs2-core" % "3.2.2"

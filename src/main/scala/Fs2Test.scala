@@ -1,9 +1,10 @@
-import fs2.text.utf8Decode
+
+import fs2.text.utf8.decode
 
 object Fs2Test extends App {
   fs2.Stream
     .emits("Hello".getBytes("UTF-8"))
-    .through(utf8Decode)
+    .through(decode)
     .compile
     .toList
     .foreach(println)
