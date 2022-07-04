@@ -2,7 +2,7 @@ name := "test-repo-2"
 
 scalaVersion := "2.13.8"
 
-licenses := List("Apache-2.0" -> url("http://www.apache.org/licenses/LICENSE-2.0"))
+headerLicense := Some(HeaderLicense.ALv2("2018-2022", "Scala Steward contributors"))
 
 /// sbt-github-actions configuration
 
