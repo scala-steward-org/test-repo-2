@@ -20,4 +20,8 @@ object hello extends ScalaModule {
     os.write(T.dest / "hello" / "hello.scala", hello, createFolders = true)
     Seq(PathRef(T.dest))
   }
+
+  def ivyDeps = Agg(
+    ivy"eu.timepit::refined:0.10.1"
+  )
 }
