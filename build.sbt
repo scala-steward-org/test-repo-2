@@ -1,6 +1,6 @@
 name := "test-repo-2"
 
-scalaVersion := "2.13.8"
+scalaVersion := "2.13.10"
 
 headerLicense := Some(
   HeaderLicense.ALv2("2018-2022", "Scala Steward contributors")
@@ -8,6 +8,6 @@ headerLicense := Some(
 
 /// sbt-github-actions configuration
 
-ThisBuild / crossScalaVersions := Seq("2.13.8")
+ThisBuild / crossScalaVersions := Seq("2.13.10")
 
-libraryDependencies += "co.fs2" %% "fs2-core" % "3.2.10"
+libraryDependencies += "co.fs2" %% "fs2-core" % "3.2.14"
