@@ -7,7 +7,7 @@ object Deps {
 
 object hello extends ScalaModule {
   override def scalaVersion = Deps.scalaVersion
-  override def generatedSources = T{
+  override def generatedSources = T {
     val hello = s"""
       |package hello
       |object Hello {
