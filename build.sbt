@@ -10,4 +10,4 @@ headerLicense := Some(
 
 ThisBuild / crossScalaVersions := Seq("2.13.10")
 
-libraryDependencies += "co.fs2" %% "fs2-core" % "3.4.0"
+libraryDependencies += "co.fs2" %% "fs2-core" % "3.5.0"
