@@ -23,6 +23,6 @@ object hello extends ScalaModule {
 
   def ivyDeps = Agg(
     ivy"eu.timepit::refined:0.10.1",
-    ivy"ch.epfl.scala:bsp4j:1.0.0+15-f247be2b"
+    ivy"ch.epfl.scala:bsp4j:1.1.0"
   )
 }
