@@ -27,7 +27,7 @@ object hello extends ScalaModule {
     ivy"ch.epfl.scala:bsp4j:2.1.0-M4",
     ivy"io.circe::circe-generic:0.14.4",
     ivy"javax.jms:javax.jms-api:2.0.1",
-    ivy"activemq:activemq:3.2.3",
+    ivy"activemq:activemq:4.0-M1",
     ivy"io.circe::circe-fs2:0.14.1",
     ivy"io.circe::circe-config:0.10.0"
   )
