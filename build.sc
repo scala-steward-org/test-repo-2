@@ -23,7 +23,7 @@ object hello extends ScalaModule {
 
   def ivyDeps = Agg(
     ivy"io.circe::circe-core:0.14.4",
-    ivy"eu.timepit::refined:0.10.2",
+    ivy"eu.timepit::refined:0.10.1",
     ivy"ch.epfl.scala:bsp4j:2.1.0-M4",
     ivy"io.circe::circe-generic:0.14.4",
     ivy"javax.jms:javax.jms-api:2.0.1",
