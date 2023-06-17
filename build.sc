@@ -2,7 +2,7 @@ import mill._
 import mill.scalalib._
 
 object Deps {
-  val scalaVersion = "2.13.8"
+  val scalaVersion = "2.13.11"
 }
 
 object hello extends ScalaModule {
