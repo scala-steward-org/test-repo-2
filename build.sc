@@ -13,7 +13,7 @@ object hello extends ScalaModule {
       |object Hello {
       |  def main(args: Array[String]): Unit = {
       |    println("Hello there!")
-      |    println("Mill version: ${mill.BuildInfo.millVersion}")
+      |    println("Mill version:")
       |  }
       |}
       """.stripMargin
