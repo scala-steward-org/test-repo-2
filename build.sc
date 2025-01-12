@@ -3,7 +3,7 @@ import mill.scalalib._
 import $ivy.`com.lihaoyi::mill-contrib-buildinfo:`
 
 object Deps {
-  val scalaVersion = "2.13.12"
+  val scalaVersion = "2.13.15"
 }
 
 object hello extends ScalaModule {
