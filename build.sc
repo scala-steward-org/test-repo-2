@@ -1,6 +1,6 @@
 import mill._
 import mill.scalalib._
-import $ivy.`com.lihaoyi::mill-contrib-buildinfo:`
+import $ivy.`com.goyeau::mill-scalafix::0.2.10`
 
 object Deps {
   val scalaVersion = "2.13.15"
